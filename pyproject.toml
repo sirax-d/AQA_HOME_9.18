@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aqa-home-9-18"
+version = "0.1.0"
+description = "Home work 9.18 poetry"
+authors = ["Krichanov Sergey <dsirax@icloud.com>"]
+license = "Free"
+readme = "README.md"
+packages = [{include = "aqa_home_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.4"
+selene = "2.0.0rc4"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
